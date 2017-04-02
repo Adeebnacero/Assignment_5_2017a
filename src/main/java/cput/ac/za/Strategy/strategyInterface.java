@@ -5,5 +5,5 @@ package cput.ac.za.Strategy;
  */
 public interface strategyInterface {
 
-    public int gamePlan(int minute);
+    public String gamePlan(int minute, String msg);
 }

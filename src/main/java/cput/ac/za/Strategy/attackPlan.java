@@ -5,8 +5,18 @@ package cput.ac.za.Strategy;
  */
 public class attackPlan implements strategyInterface{
 
-    public int gamePlan(int minute) {
+    public String gamePlan(int minute, String msg) {
 
-        return minute;
+        if(minute <= 45) {
+
+            msg = "Attack";
+
+            return msg;
+        }
+            else
+
+            msg = "Defend";
+
+            return msg;
     }
 }

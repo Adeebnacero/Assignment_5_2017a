@@ -12,8 +12,8 @@ public class decisionMaker {
         this.strategy = strategy;
     }
 
-    public int executePlan(int minute){
+    public String executePlan(int minute, String msg){
 
-        return strategy.gamePlan(minute);
+        return strategy.gamePlan(minute, msg);
     }
 }
